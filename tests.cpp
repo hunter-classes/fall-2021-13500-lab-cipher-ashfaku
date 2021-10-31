@@ -19,6 +19,7 @@ TEST_CASE("Tests with long strings and random shifts")
     	CHECK(solve("Pb qdph lv vdp") == "My name is sam");
     	CHECK(solve("Xli woc mw fpyi mr gspsv") == "The sky is blue in color");
     	CHECK(solve("Qerksiw evi waiix erh cippsa mr gspsv.") == "Mangoes are sweet and yellow in color.");
+	CHECK(solve(encryptCaesar("Is it a better idea to do jMonkeyEngine or LWJGL after JavaFX :hmm:", 69)) == "Is it a better idea to do jMonkeyEngine or LWJGL after JavaFX :hmm:");
 }
 TEST_CASE("Testing solve() with short strings, short strings could have a chance of not working, due to too little letters")
 {
