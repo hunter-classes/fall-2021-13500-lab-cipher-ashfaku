@@ -1,13 +1,13 @@
 * Fall 2021 - Lab Cipher
 
-* Last name:
+* Last name: Uddin
 
-* First name:
+* First name: Ashfak
 
-* GitHub username:
+* GitHub username: ashfaku
 
 * Notes:
-
+Running make main will produce an executable that does nothing; please run my make tests instead.
 
 
 * General instructions:
