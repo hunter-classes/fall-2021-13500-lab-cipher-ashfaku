@@ -5,7 +5,7 @@ int randomShift(int low, int high)
 {
 	return rand() / (double) RAND_MAX * (high - low) + low;
 }
-// for encryptCaesar(string, shift) tests, check my lab 7
+// for encryptCaesar(string, shift) tests, check my lab 6
 TEST_CASE("Tests with long strings and random shifts")
 {
 	CHECK(solve(encryptCaesar("Java is more fun than C++", randomShift(0, 26))) == "Java is more fun than C++");
